@@ -1,0 +1,22 @@
+{
+  "heroTitle": "GIARQ",
+  "landingReference": "landing",
+  "items": [
+    {
+      "title":"PROYECTOS",
+      "reference": "projects"
+    },
+    {
+      "title":"NOSOTROS",
+      "reference": "skills"
+    },
+    {
+      "title":"CONTACTO",
+      "reference": "contact"
+    },
+    {
+      "title": "BLOG",
+      "href": "/blog"
+    }
+  ]
+}
