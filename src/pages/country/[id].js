@@ -23,7 +23,7 @@ const Country = ({ country }) => {
   };
 
   useEffect(() => {
-    getBorders();
+    if (country.borders) getBorders();
   }, []);
 
   console.log(borders);
