@@ -103,8 +103,8 @@ const CountriesTable = ({ countries }) => {
         </button>
       </div>
 
-      {orderedCountries.map((country) => (
-        <Link href={`/country/${country.alpha3Code}`} key={country.name}>
+      {orderedCountries.map((country, index) => (
+        <Link href={`/country/${country.alpha3Code}`} key={index}>
           <div className={styles.row}>
             <div className={styles.flag}>
               <img src={country.flag} alt={country.name} />
